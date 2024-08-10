@@ -15,6 +15,12 @@
 		94F7E4A02C67BDDA0012F2AD /* KarasuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E49F2C67BDDA0012F2AD /* KarasuTests.swift */; };
 		94F7E4AA2C67BDDA0012F2AD /* KarasuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4A92C67BDDA0012F2AD /* KarasuUITests.swift */; };
 		94F7E4AC2C67BDDA0012F2AD /* KarasuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4AB2C67BDDA0012F2AD /* KarasuUITestsLaunchTests.swift */; };
+		94F7E4BA2C67C1840012F2AD /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4B92C67C1840012F2AD /* Program.swift */; };
+		94F7E4BC2C67C4D60012F2AD /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4BB2C67C4D60012F2AD /* Block.swift */; };
+		94F7E4BE2C67C56E0012F2AD /* AssociationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4BD2C67C56E0012F2AD /* AssociationModel.swift */; };
+		94F7E4C02C67C9960012F2AD /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4BF2C67C9960012F2AD /* Workout.swift */; };
+		94F7E4C22C67CA710012F2AD /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4C12C67CA710012F2AD /* Set.swift */; };
+		94F7E4C42C67D4F20012F2AD /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7E4C32C67D4F20012F2AD /* Exercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,12 @@
 		94F7E4A52C67BDDA0012F2AD /* KarasuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarasuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F7E4A92C67BDDA0012F2AD /* KarasuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarasuUITests.swift; sourceTree = "<group>"; };
 		94F7E4AB2C67BDDA0012F2AD /* KarasuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarasuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94F7E4B92C67C1840012F2AD /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		94F7E4BB2C67C4D60012F2AD /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		94F7E4BD2C67C56E0012F2AD /* AssociationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociationModel.swift; sourceTree = "<group>"; };
+		94F7E4BF2C67C9960012F2AD /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		94F7E4C12C67CA710012F2AD /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		94F7E4C32C67D4F20012F2AD /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 		94F7E48B2C67BDD80012F2AD /* Karasu */ = {
 			isa = PBXGroup;
 			children = (
+				94F7E4B82C67C1670012F2AD /* Models */,
 				94F7E48C2C67BDD80012F2AD /* KarasuApp.swift */,
 				94F7E48E2C67BDD80012F2AD /* ContentView.swift */,
 				94F7E4902C67BDD80012F2AD /* Item.swift */,
@@ -128,6 +141,19 @@
 				94F7E4AB2C67BDDA0012F2AD /* KarasuUITestsLaunchTests.swift */,
 			);
 			path = KarasuUITests;
+			sourceTree = "<group>";
+		};
+		94F7E4B82C67C1670012F2AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94F7E4B92C67C1840012F2AD /* Program.swift */,
+				94F7E4BB2C67C4D60012F2AD /* Block.swift */,
+				94F7E4BD2C67C56E0012F2AD /* AssociationModel.swift */,
+				94F7E4BF2C67C9960012F2AD /* Workout.swift */,
+				94F7E4C12C67CA710012F2AD /* Set.swift */,
+				94F7E4C32C67D4F20012F2AD /* Exercise.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F7E4C22C67CA710012F2AD /* Set.swift in Sources */,
+				94F7E4BA2C67C1840012F2AD /* Program.swift in Sources */,
 				94F7E48F2C67BDD80012F2AD /* ContentView.swift in Sources */,
+				94F7E4C02C67C9960012F2AD /* Workout.swift in Sources */,
+				94F7E4BC2C67C4D60012F2AD /* Block.swift in Sources */,
+				94F7E4BE2C67C56E0012F2AD /* AssociationModel.swift in Sources */,
 				94F7E4912C67BDD80012F2AD /* Item.swift in Sources */,
 				94F7E48D2C67BDD80012F2AD /* KarasuApp.swift in Sources */,
+				94F7E4C42C67D4F20012F2AD /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
